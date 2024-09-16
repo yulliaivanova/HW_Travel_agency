@@ -26,6 +26,11 @@ public class Tour {
         this.countDays = countDays;
     }
 
+    public Tour(long id, double price) {
+        this.id = id;
+        this.price = price;
+    }
+
     public long getId() {
         return id;
     }
